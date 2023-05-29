@@ -1,0 +1,48 @@
+@import url("universal.css");
+
+.book-row{
+  box-sizing: border-box;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 90%;
+  height: 30%;
+  border: 2px solid #458490;
+}
+
+.book-title{
+  box-sizing: border-box;
+  position: inherit;
+  margin: 9% 3%;
+  width: 70%;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.book-img{
+  box-sizing: border-box;
+  position: inherit;
+  height: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  float: right;
+  border: 2px solid #458490;
+}
+
+.book-page-content{
+  box-sizing: border-box;
+  position: absolute;
+  margin: 7% auto;
+  width: 90%;
+  min-height: 90%;
+  height: auto;
+  padding: 3%;
+}
+
+.book-page-content img{
+  box-sizing: border-box;
+  float: right;
+  width: 30%;
+}

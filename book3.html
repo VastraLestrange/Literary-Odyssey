@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSCB20 - Assignment 2</title>
+  <link href="book.css" rel="stylesheet" type="text/css">
+  <script src="universal.js" defer></script>
+</head>
+
+<body onload="loadNavigationBar(); loadFooter();">
+  <div class="page-container">
+    <div class="navigation-bar"></div>
+    <div class="content-wrap">
+      <div class="book-page-content-individual-books">
+ 
+        <img src="/Images/the-hobbit.jpg" alt="The Hobbit">
+        <h1 id="bookTitle"> The Hobbit </h1>
+        <h3 id="bookAuthor"> J.R.R. Tolkien </h3>
+        <p id="bookSummary"> 
+          In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
+Written for J.R.R. Tolkien’s own children, The Hobbit met with instant critical acclaim when it was first published in 1937. Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent. The text in this 372-page paperback edition is based on that first published in Great Britain by Collins Modern Classics (1998), and includes a note on the text by Douglas A. Anderson (2001).
+        </p>
+
+       
+        <a href="book_review.html">See reviews by other users</a>
+        <h4> Write a review </h4>
+        <form id="book-review-form">
+          <input type="text" class="newbookreview" id="book-review-input"><br>
+          <input type="submit" class="bookreviewsubmit" value="Submit review">
+        </form>
+        <div class = "book-review-error-message-spot"></div>
+      </div> <!-- content-wrap -->
+      <div class="footer"></div>
+    </div> <!-- page-container -->
+</body>
+
+</html>

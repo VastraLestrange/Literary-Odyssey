@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSCB20 - Assignment 2</title>
+  <link href="book.css" rel="stylesheet" type="text/css">
+  <script src="universal.js" defer></script>
+</head>
+
+<body onload="loadNavigationBar(); loadFooter();">
+  <div class="page-container">
+    <div class="navigation-bar"></div>
+    <div class="content-wrap">
+      <div class="book-page-content-individual-books">
+ 
+        <img src="/Images/to-kill-a-mocking-bird.jpg" alt="To Kill A Mockingbird">
+        <h1 id="bookTitle"> To Kill A Mockingbird </h1>
+        <h3 id="bookAuthor"> Lee, Harper </h3>
+        <p id="bookSummary">
+          "Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin to kill a mockingbird."
+
+A lawyer's advice to his children as he defends the real mocking bird of Harper Lee's classic novel--a black man charged with the rape of a white girl. Through the young eyes of Scout and Jem Finch, Harper Lee explores with rich humor and unswerving honesty the irrationality of adult attitudes toward race and class in the Deep South of the 1930s. the conscience of a town stepped in prejudice, violence, and hypocrisy is pricked by the stamina and quiet heroism of one man's struggle for justice. But the weight of history will only tolerate so much.
+        </p>
+
+        <a href="book_review.html">See reviews by other users</a>
+        <h4> Write a review </h4>
+        <form id="book-review-form">
+          <input type="text" class="newbookreview" id="book-review-input"><br>
+          <input type="submit" class="bookreviewsubmit" value="Submit review">
+        </form>
+        <div class = "book-review-error-message-spot"></div>
+      </div> <!-- content-wrap -->
+      <div class="footer"></div>
+    </div> <!-- page-container -->
+</body>
+
+</html>

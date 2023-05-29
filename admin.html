@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSCB20 - Assignment 2 - Admin</title>
+  <link href="index_html.css" rel="stylesheet" type="text/css">
+  <link href="universal.css" rel="stylesheet" type="text/css">
+  <script src="universal.js" defer></script>
+</head>
+
+<body onload="loadNavigationBar(); loadFooter(); loadAdminPage()">
+  <div class="page-container">
+    <div class="navigation-bar"></div>
+
+    <div class="content-wrap">
+
+      <div class="book-row">
+        <div class="book-title" id="book1-order"></div>
+      </div>
+
+      <div class="book-row">
+        <div class="book-title" id="book2-order"></div>
+      </div>
+
+      <div class="book-row">
+        <div class="book-title" id="book3-order"></div>
+      </div>
+
+      <div class="book-row">
+        <div class="book-title" id="book4-order"></div>
+      </div>
+
+      <div class="book-row">
+        <div class="book-title" id="book5-order"></div>
+      </div>
+
+      <button onclick="orderISBN()">sortByISBN</button>
+      <button onclick="orderAuthor()">sortByAuthor</button>
+      <button onclick="orderBook()">sortByBook</button>
+
+    </div> <!-- content-wrap -->
+
+    <div class="footer"></div>
+
+  </div> <!-- page-container -->
+
+</body>
+
+</html>
